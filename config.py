@@ -37,7 +37,8 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001865179980"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI Am An Official Bot Of A2Z movies. I Will Provide You All Kinds Of Movie And Web Series As File Format.
+For Know How Join 👉 A2Z movies.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -61,7 +62,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "🤦 Don't Send Me Message Directly! Join A2Z Movies And Come Through The Link And Get Movies/Web Series."
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
