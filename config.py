@@ -37,8 +37,8 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001865179980"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI Am An Official Bot Of A2Z movies. I Will Provide You All Kinds Of Movie And Web Series As File Format.
-For Know How Join 👉 A2Z movies.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI Am An Official Bot Of <a href='https://t.me/+6IOkJOb5P3liOWE9'>A2Z movies</a>. I Will Provide You All Kinds Of Movie And Web Series As File Format.
+For Know How? Join 👉 <a href='https://t.me/+eOShHZ5ob0tlYTdl'>This Channel</a>.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -62,7 +62,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "🤦 Don't Send Me Message Directly! Join A2Z Movies And Come Through The Link And Get Movies/Web Series."
+USER_REPLY_TEXT = "🤦 Don't Send Me Message Directly! Join <a href='https://t.me/+6IOkJOb5P3liOWE9'>A2Z movies</a> And Come Through The Link And Get Movies/Web Series."
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
